@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Insights | Professional Advisory Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav id="navigation">
+        <div class="container">
+            <h1 class="brand">
+                <i class="fas fa-chart-line"></i> Financial Insights
+            </h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="home" class="hero-section">
+        <div class="container">
+            <h2>Empowering Your Financial Future</h2>
+            <p>Expert advice and personalized service to help you achieve your financial goals.</p>
+            <a href="#services" class="cta-button">Discover More</a>
+        </div>
+    </section>
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2>Our Expertise</h2>
+            <div class="service-grid">
+                <div class="service-item">
+                    <i class="fas fa-coins fa-3x"></i>
+                    <h3>Wealth Management</h3>
+                    <p>Comprehensive wealth management strategies to grow and protect your assets.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-chart-pie fa-3x"></i>
+                    <h3>Investment Planning</h3>
+                    <p>Tailored investment plans designed to meet your unique financial objectives.</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-file-invoice-dollar fa-3x"></i>
+                    <h3>Tax Advisory</h3>
+                    <p>Expert tax planning and preparation to minimize your tax liabilities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Financial Insights</h2>
+            <p>Financial Insights is dedicated to providing personalized financial advisory services to individuals and businesses. Our team of experienced professionals is committed to helping you achieve financial success through comprehensive planning and strategic investment.</p>
+            <h3>Meet Our Team</h3>
+            <ul class="team-list">
+                <li>John Doe: Chief Executive Officer</li>
+                <li>Jane Smith: Chief Financial Officer</li>
+                <li>Emily Davis: Senior Investment Advisor</li>
+                <li>Michael Brown: Tax Specialist</li>
+                <li>Sarah Wilson: Financial Planner</li>
+            </ul>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 id="contact_us_head">Contact Us</h2>
+            <p id="contact_us_para">We would love to hear from you. Please fill out the form below to get in touch.</p>
+            <form action="submit_form.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message"></textarea>
+                </div>
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Financial Insights. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
